@@ -132,7 +132,7 @@ Click Finish.
 Right-click the project → Run As → Run on Server.
 Choose Apache Tomcat and click Finish.
 Open your browser and visit:
-http://localhost:8080/FoodDeliveryApplication/
+http://localhost:8080/AmeenaFoods/
 ## 💡 Additional Notes
 Make sure MySQL is running before launching the project.
 Update DatabaseConnection.java in com.tap.utility with your MySQL credentials:
