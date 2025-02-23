@@ -1,7 +1,7 @@
-🍔 Food Delivery Application
+# 🍔 Food Delivery Application
 A Java-based web application that allows users to explore restaurants, order food online, and manage their orders.
 
-✨ Features
+# ✨ Features
 ✔️ User Authentication: Sign-up, sign-in, and sign-out functionality.
 ✔️ Home Page: Displays a list of different restaurants.
 ✔️ Menu Page: View food items of a selected restaurant.
