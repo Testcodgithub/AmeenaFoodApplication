@@ -11,6 +11,8 @@ A Java-based web application that allows users to explore restaurants, order foo
 ✔️ Profile Management: Users can edit their profile information.
 ✨ Screenshots
 image
+![image](https://github.com/user-attachments/assets/2d2d5cec-dae6-43cc-9fa2-1521ec812d9b)
+![image](https://github.com/user-attachments/assets/7d406c13-aa3b-434d-8968-3c5f29a3052e)
 
 image
 
@@ -45,7 +47,7 @@ Install MySQL Server
 Install Eclipse IDE (or any other IDE that supports Java Web Development)
 Add MySQL Connector JAR to the lib/ folder
 📝 Step 1: Clone the Repository
-git clone https://github.com/mamatha833/FoodDeliveryApplication.git
+git clone https://github.com/Testcodgithub/AmeenaFoodApplication
 🔧 Step 2: Set Up the MySQL Database
 Open MySQL Workbench or any MySQL client.
 Create a new database:
@@ -133,7 +135,7 @@ http://localhost:8080/FoodDeliveryApplication/
 💡 Additional Notes
 Make sure MySQL is running before launching the project.
 Update DatabaseConnection.java in com.tap.utility with your MySQL credentials:
-String url = "jdbc:mysql://localhost:3306/FoodDeliveryDB";
+String url = "jdbc:mysql://localhost:3306/ameena_food";
 String user = "root";
 String password = "your_password";
 If you face any errors, check the Tomcat logs in Eclipse.
