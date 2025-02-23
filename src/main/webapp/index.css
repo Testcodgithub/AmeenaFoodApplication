@@ -1,9 +1,12 @@
 @charset "ISO-8859-1";
+/*
+
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('AmiiFood/pexels-ella-olsson-572949-1640774.jpg'); /* Replace with your image path */
+    background-image: url('AmiiFood/first_image.jpg');  Replace with your image path 
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -14,7 +17,7 @@ body {
 
 .auth-container {
    text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay */
+    background-color: rgba(255, 255, 255, 0.8);  Semi-transparent white overlay 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -23,7 +26,7 @@ body {
 h1 {
     color: #000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: 36px; /* Increased font size */
+    font-size: 36px;  Increased font size 
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -38,6 +41,157 @@ a {
 
 a:hover {
    background-color: #f0f0f0;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add hover effect shadow */
-    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);  Add hover effect shadow 
+    transform: scale(1.05);  Slight zoom on hover 
+}*/
+	
+@charset "ISO-8859-1";
+
+/* Page-wide styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-image: url('AmiiFood/first_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+/* Authentication container */
+.auth-container {
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 245, 230, 0.9));
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    max-width: 450px;
+    width: 90%;
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Entrance animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Main heading */
+h1 {
+    color: #2c2c2c;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* Form-specific heading */
+h2 {
+    color: #444;
+    font-size: 26px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+/* Form styling */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Input fields */
+.auth-form input {
+    padding: 14px 20px;
+    border: 2px solid #eee;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+}
+
+.auth-form input:focus {
+    border-color: #ff6600;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(255, 102, 0, 0.3);
+}
+
+/* Placeholder styling */
+.auth-form input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Submit button */
+.auth-form button {
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff6600, #ff8533);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.auth-form button:hover {
+    background: linear-gradient(90deg, #e65c00, #ff6600);
+    box-shadow: 0 5px 15px rgba(255, 102, 0, 0.4);
+    transform: translateY(-3px);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #ff6600;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #e65c00;
+    text-decoration: underline;
+}
+
+/* Switch link styling */
+.switch-link {
+    font-size: 14px;
+    padding: 0;
+    background: none;
+}
+
+/* Paragraph text */
+.auth-form p {
+    margin: 15px 0 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Error message styling (red color) */
+.error-message {
+    color: #d32f2f; /* Red color for error */
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 500;
+    background-color: rgba(255, 235, 238, 0.8); /* Light red background */
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/* Emoji styling */
+.emoji {
+    font-size: 30px;
+    margin-bottom: 25px;
 }

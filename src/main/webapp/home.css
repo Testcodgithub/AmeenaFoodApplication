@@ -1,5 +1,5 @@
-@charset "ISO-8859-1";
-/* General body styling */
+/*@charset "ISO-8859-1";
+ General body styling 
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -8,13 +8,13 @@ body {
     color: #333;
 }
 
-/* Navigation bar styling */
+ Navigation bar styling 
 nav {
-    background-color: #FF7F50; /* Swiggy-inspired orange color */
+    background-color: #FF7F50;  Swiggy-inspired orange color 
     color: white;
     padding: 15px 20px;
     display: flex;
-    justify-content: flex-end; /* Align items to the right */
+    justify-content: flex-end;  Align items to the right 
     align-items: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -50,12 +50,12 @@ nav a:hover::after {
 }
 
 nav a:hover {
-    color: #f8f9fa; /* Darker orange for hover */
+    color: #f8f9fa;  Darker orange for hover 
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Profile Menu Dropdown */
+ Profile Menu Dropdown 
 .profile-menu {
     position: relative;
     display: flex;
@@ -75,7 +75,7 @@ nav a:hover {
     z-index: 1;
     right: 0;
     top: 100%;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px;  Rounded corners 
 }
 
 .dropdown-content a {
@@ -87,11 +87,11 @@ nav a:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: #fc8019; /* Hover effect for dropdown links */
+    background-color: #fc8019;  Hover effect for dropdown links 
     color: white;
 }
 
-/* Container */
+ Container 
 .container {
     width: 100%;
     margin: auto;
@@ -100,7 +100,7 @@ nav a:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Header title */
+ Header title 
 .header-title {
     text-align: center;
     margin-bottom: 20px;
@@ -109,26 +109,26 @@ nav a:hover {
 .header-title h1 {
     font-size: 2.5em;
     margin: 20px 0 10px;
-    color: #ff5722; /* Updated primary orange color */
+    color: #ff5722;  Updated primary orange color 
 }
 
-/* Popup for logged-in users */
+ Popup for logged-in users 
 .logged-in-popup {
-    background-color: #ffebee; /* Light red background */
-    border-left: 5px solid #fc8019; /* Orange left border */
+    background-color: #ffebee;  Light red background 
+    border-left: 5px solid #fc8019;  Orange left border 
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px;  Rounded corners 
 }
 
 .logged-in-popup h2 {
     font-size: 1.8em;
-    color: #ff5722; /* Updated primary orange color */
+    color: #ff5722;  Updated primary orange color 
 }
 
-/* Restaurant Container */
+ Restaurant Container 
 .restaurant-container {
     display: flex;
     flex-wrap: wrap;
@@ -136,7 +136,7 @@ nav a:hover {
     justify-content: space-between;
 }
 
-/* Restaurant Item */
+ Restaurant Item 
 .restaurant {
     flex: 1 1 calc(33.333% - 20px);
     box-sizing: border-box;
@@ -163,9 +163,9 @@ nav a:hover {
     aspect-ratio: 1;
 }
 
-/* Restaurant details */
+ Restaurant details 
 .restaurant h3 {
-    color: #ff5722; /* Updated primary orange color */
+    color: #ff5722;  Updated primary orange color 
     font-size: 1.5em;
     margin: 10px 0;
 }
@@ -175,28 +175,28 @@ nav a:hover {
     margin: 8px 0;
 }
 
-/* IsActive Status */
+ IsActive Status 
 .is-active {
     font-weight: bold;
     padding: 5px;
-    border-radius: 5px; /* Rounded corners for better appearance */
+    border-radius: 5px;  Rounded corners for better appearance 
 }
 
 .is-active.open {
-    color: #388e3c; /* Dark green color for "Open" */
-    background-color: rgb(0, 255, 0)5e9; /* Light green background */
+    color: #388e3c;  Dark green color for "Open" 
+    background-color: rgb(0, 255, 0)5e9;  Light green background 
 }
 
 .is-active.closed {
-    color: #d32f2f; /* Dark red color for "Closed" */
-    background-color: #ffebee; /* Light red background */
+    color: #d32f2f;  Dark red color for "Closed" 
+    background-color: #ffebee;  Light red background 
 }
 
-/* View Menu Button */
+ View Menu Button 
 .view-menu-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff5722; /* Button color */
+    background-color: #ff5722;  Button color 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -206,16 +206,16 @@ nav a:hover {
 }
 
 .view-menu-button:hover {
-    background-color: #e64a19; /* Darker orange for hover */
+    background-color: #e64a19;  Darker orange for hover 
     transform: scale(1.05);
 }
 
-/* Footer */
+ Footer 
 footer {
-    background-color: #D2691E; /* Swiggy-inspired orange color */
+    background-color: #D2691E;  Swiggy-inspired orange color 
     color: #fff;
     text-align: center;
-    padding: 30px 20px; /* Adjusted padding */
+    padding: 30px 20px;  Adjusted padding 
     position: relative;
     bottom: 0;
     width: 100%;
@@ -254,20 +254,20 @@ footer .footer-links img {
 }
 
 footer .footer-links a:hover img {
-    opacity: 0.8; /* Slightly reduce opacity on hover */
+    opacity: 0.8;  Slightly reduce opacity on hover 
 }
 
 footer p a {
-    color: #fff; /* White color for footer links */
+    color: #fff;  White color for footer links 
     font-weight: bold;
     margin: 0 10px;
 }
 
 footer p a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;  Underline on hover 
 }
 
-/* Media Query for Smaller Screens */
+ Media Query for Smaller Screens 
 @media screen and (max-width: 768px) {
     footer .footer-content {
         text-align: center;
@@ -278,6 +278,652 @@ footer p a:hover {
     }
 
     footer .footer-links img {
-        width: 120px; /* Adjust width for smaller screens */
+        width: 120px;  Adjust width for smaller screens 
+    }
+}*/
+
+/*
+@charset "ISO-8859-1";
+
+ General body styling 
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #FFF8E1;  Light cream background 
+    margin: 0;
+    padding: 0;
+    color: #2D2D2D;
+    line-height: 1.6;
+}
+
+ Full-width background adjustment 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;  Full viewport width 
+    height: 100vh;  Full viewport height 
+    background: url('AmiiFood/background.jpg') no-repeat center center;  Replace with your image 
+    background-size: cover;  Covers entire viewport 
+    z-index: -1;  Behind content 
+    opacity: 0.1;  Subtle overlay effect 
+}
+
+ Navigation bar styling 
+nav {
+    background: linear-gradient(90deg, #FF5733, #FFC107);  Vibrant orange to amber 
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav a::after {
+    content: "";
+    height: 3px;
+    background: #388E3C;  Fresh green underline 
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a:hover {
+    color: #D81B60;  Vivid pink on hover 
+    transform: translateY(-2px);
+}
+
+ Profile Menu Dropdown 
+.profile-menu {
+    position: relative;
+}
+
+.profile-link {
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #FFF8E1;  Matches body background 
+    min-width: 180px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+    right: 0;
+    top: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile-menu:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #2D2D2D;
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background: #D81B60;  Pink hover 
+    color: white;
+}
+
+ Container 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);  Slightly transparent white 
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+ Header title 
+.header-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-title h1 {
+    font-size: 2.8em;
+    margin: 0 0 15px;
+    color: #FF5733;  Vibrant orange 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ Popup for logged-in users 
+.logged-in-popup {
+    background: linear-gradient(135deg, #FFC107, #FFF8E1);  Amber to cream 
+    border-left: 6px solid #FF5733;  Orange border 
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    animation: slideIn 0.5s ease;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.logged-in-popup h2 {
+    font-size: 1.9em;
+    color: #FF5733;
+    margin: 0;
+}
+
+ Restaurant Container 
+.restaurant-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+}
+
+ Restaurant Item 
+.restaurant {
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.restaurant:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.restaurant-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.restaurant:hover .restaurant-image {
+    transform: scale(1.03);
+}
+
+ Restaurant details 
+.restaurant h3 {
+    color: #FF5733;  Vibrant orange 
+    font-size: 1.6em;
+    margin: 12px 0;
+}
+
+.restaurant p {
+    color: #666;
+    margin: 10px 0;
+    font-size: 0.95em;
+}
+
+ IsActive Status 
+.is-active {
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.is-active.open {
+    color: #fff;
+    background: #388E3C;  Fresh green 
+}
+
+.is-active.closed {
+    color: #fff;
+    background: #D81B60;  Vivid pink for closed 
+}
+
+ View Menu Button 
+.view-menu-button {
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #FF5733, #FFC107);  Orange to amber 
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.view-menu-button:hover {
+    background: linear-gradient(90deg, #D81B60, #FF5733);  Pink to orange 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.4);
+}
+
+ Footer 
+footer {
+    background: linear-gradient(90deg, #388E3C, #FF5733);  Green to orange 
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 25px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links img {
+    width: 160px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.footer-links a:hover img {
+    transform: scale(1.05);
+}
+
+footer p a {
+    color: #FFC107;  Amber links 
+    font-weight: 600;
+    margin: 0 12px;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #D81B60;  Pink on hover 
+}
+
+ Media Query for Smaller Screens 
+@media screen and (max-width: 768px) {
+    .restaurant-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .restaurant {
+        padding: 20px;
+    }
+
+    .footer-links {
+        gap: 20px;
+    }
+
+    .footer-links img {
+        width: 130px;
+    }
+}*/
+@charset "ISO-8859-1";
+
+/* General body styling */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #F7FAFD; /* Light blue-gray */
+    margin: 0;
+    padding: 0;
+    color: #111111; /* Near black */
+    line-height: 1.6;
+}
+
+/* Full-width background adjustment */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('AmiiFood/background.jpg') no-repeat center center; /* Replace with your image */
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+/* Navigation bar styling */
+nav {
+    background: linear-gradient(90deg, #232F3E, #37475A); /* Dark blue-gray gradient */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav a::after {
+    content: "";
+    height: 3px;
+    background: #007185; /* Amazon teal underline */
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a:hover {
+    color: #007185; /* Amazon teal on hover */
+    transform: translateY(-2px);
+}
+
+/* Profile Menu Dropdown */
+.profile-menu {
+    position: relative;
+}
+
+.profile-link {
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #F5F6F5; /* Light gray */
+    min-width: 180px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+    right: 0;
+    top: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile-menu:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #111111; /* Near black */
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background: #007185; /* Amazon teal */
+    color: white;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95); /* Slightly transparent white */
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Header title */
+.header-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-title h1 {
+    font-size: 2.8em;
+    margin: 0 0 15px;
+    color: #232F3E; /* Dark blue-gray */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Popup for logged-in users */
+.logged-in-popup {
+    background: linear-gradient(135deg, #F5F6F5, #F7FAFD); /* Light gray to blue-gray */
+    border-left: 6px solid #0F834D; /* Amazon green border */
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    animation: slideIn 0.5s ease;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.logged-in-popup h2 {
+    font-size: 1.9em;
+    color: #0F834D; /* Amazon green */
+    margin: 0;
+}
+
+/* Restaurant Container */
+.restaurant-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+}
+
+/* Restaurant Item */
+.restaurant {
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.restaurant:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.restaurant-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.restaurant:hover .restaurant-image {
+    transform: scale(1.03);
+}
+
+/* Restaurant details */
+.restaurant h3 {
+    color: #232F3E; /* Dark blue-gray */
+    font-size: 1.6em;
+    margin: 12px 0;
+}
+
+.restaurant p {
+    color: #666;
+    margin: 10px 0;
+    font-size: 0.95em;
+}
+
+/* IsActive Status */
+.is-active {
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.is-active.open {
+    color: #fff;
+    background: #0F834D; /* Amazon green */
+}
+
+.is-active.closed {
+    color: #fff;
+    background: #D5D9D9; /* Soft gray */
+}
+
+/* View Menu Button */
+.view-menu-button {
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #0F834D, #007185); /* Green to teal */
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.view-menu-button:hover {
+    background: linear-gradient(90deg, #007185, #0F834D); /* Teal to green */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 113, 133, 0.4); /* Teal shadow */
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #232F3E, #37475A); /* Dark blue-gray gradient */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 25px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links img {
+    width: 160px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.footer-links a:hover img {
+    transform: scale(1.05);
+}
+
+footer p a {
+    color: #007185; /* Amazon teal */
+    font-weight: 600;
+    margin: 0 12px;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #0F834D; /* Amazon green */
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .restaurant-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .restaurant {
+        padding: 20px;
+    }
+
+    .footer-links {
+        gap: 20px;
+    }
+
+    .footer-links img {
+        width: 130px;
     }
 }
