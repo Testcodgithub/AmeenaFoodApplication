@@ -2,14 +2,14 @@
 A Java-based web application that allows users to explore restaurants, order food online, and manage their orders.
 
 # ✨ Features
-✔️ User Authentication: Sign-up, sign-in, and sign-out functionality.
-✔️ Home Page: Displays a list of different restaurants.
-✔️ Menu Page: View food items of a selected restaurant.
-✔️ Add to Cart: Users can add items to their cart.
-✔️ Checkout & Order Confirmation: Proceed to checkout and confirm the order.
-✔️ Order History: Users can view past orders with all details.
-✔️ Profile Management: Users can edit their profile information.
-✨ Screenshots
+-  [✔️ User Authentication: Sign-up, sign-in, and sign-out functionality.][#✔️ User Authentication: Sign-up, sign-in, and sign-out functionality.]
+[✔️ Home Page: Displays a list of different restaurants.][#]
+[✔️ Menu Page: View food items of a selected restaurant.]
+[✔️ Add to Cart: Users can add items to their cart.]
+[✔️ Checkout & Order Confirmation: Proceed to checkout and confirm the order.]
+[✔️ Order History: Users can view past orders with all details.]
+[✔️ Profile Management: Users can edit their profile information.]
+# ✨ Screenshots
 image
 ![image](https://github.com/user-attachments/assets/2d2d5cec-dae6-43cc-9fa2-1521ec812d9b)
 ![image](https://github.com/user-attachments/assets/e5bbce3b-5377-4d9e-ac75-c2592a2f3ec8)
@@ -17,7 +17,7 @@ image
 
 image
 
-🔧 Technologies Used
+# 🔧 Technologies Used
 Frontend: JSP, CSS
 Backend: Java (Servlets, JDBC)
 Database: MySQL
@@ -41,15 +41,15 @@ FoodDeliveryApplication/
 ⚡ How to Run the Project
 Follow these steps to set up and run the project on your system:
 
-🛠 Prerequisites
+# 🛠 Prerequisites
 Install Java JDK (11 or higher)
 Install Apache Tomcat (9 or higher)
 Install MySQL Server
 Install Eclipse IDE (or any other IDE that supports Java Web Development)
 Add MySQL Connector JAR to the lib/ folder
-📝 Step 1: Clone the Repository
+## 📝 Step 1: Clone the Repository
 git clone https://github.com/Testcodgithub/AmeenaFoodApplication
-🔧 Step 2: Set Up the MySQL Database
+## 🔧 Step 2: Set Up the MySQL Database
 Open MySQL Workbench or any MySQL client.
 Create a new database:
 CREATE DATABASE FoodDeliveryDB;
@@ -118,30 +118,30 @@ status varchar(45),
 foreign key (orderId) references `ordertable`(orderId),
 foreign key (userId) references  `user`(userId)
 );
-🛠 Step 3: Import the Project in Eclipse
+## 🛠 Step 3: Import the Project in Eclipse
 Open Eclipse IDE.
 Click File → Import → Existing Projects into Workspace.
 Select the FoodDeliveryApplication folder.
 Click Finish.
-🌐 Step 4: Configure Tomcat Server
+## 🌐 Step 4: Configure Tomcat Server
 In Eclipse, go to Window → Show View → Servers.
 Right-click and Add New Server → Select Apache Tomcat.
 Set the Tomcat installation directory.
 Click Finish.
-🚀 Step 5: Run the Application
+## 🚀 Step 5: Run the Application
 Right-click the project → Run As → Run on Server.
 Choose Apache Tomcat and click Finish.
 Open your browser and visit:
 http://localhost:8080/FoodDeliveryApplication/
-💡 Additional Notes
+## 💡 Additional Notes
 Make sure MySQL is running before launching the project.
 Update DatabaseConnection.java in com.tap.utility with your MySQL credentials:
 String url = "jdbc:mysql://localhost:3306/ameena_food";
 String user = "root";
 String password = "your_password";
 If you face any errors, check the Tomcat logs in Eclipse.
-💼 Contributing
+## 💼 Contributing
 Pull requests are welcome! If you find any issues, feel free to open an issue.
 
-💌 Contact
+## 💌 Contact
 For any queries, reach out at mirjaameena@gmail.com.
